@@ -220,3 +220,8 @@ export const navItems = [
       link:"https://www.linkedin.com/in/sasitha-ruween-1752502b3/"
     },
   ];
+
+  export const profile = {
+    img: "/profile.jpeg",  
+    title: "My Profile", 
+  };
