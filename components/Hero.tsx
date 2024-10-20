@@ -22,10 +22,10 @@ const Hero = () => {
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
         </div>
         <div className='flex justify-between items-center relative z-10 my-20'>
-            <div className='max-w-[45vw] flex flex-col items-start justify-center'>
+            <div className='max-w-[90vw] md:max-w-[45vw] flex flex-col items-start justify-center'>
                 <h2 className='uppercase tracking-widest text-xs text-left text-blue-100'>Dynamic Web Magic</h2>
                 <TextGenerateEffect
-                    className='text-left text-[40px] md:text-5xl lg:text-6xl'
+                    className='text-left text-[30px] md:text-5xl lg:text-6xl'
                     words='Transforming Concepts into Seamless Experiences'
                 />
                 <p className='text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
@@ -40,12 +40,12 @@ const Hero = () => {
                 </a>
             </div>
 
-            {/* Right side image */}
-            <div className='flex justify-center items-center'>
+            {/* Right side image with spacing and mobile adjustments */}
+            <div className='flex-shrink-0 ml-4 md:ml-8'>
                 <img 
                     src={profile.img} 
                     alt={profile.title} 
-                    className='w-60 h-60 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover'
+                    className='w-36 h-36 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover'
                 />
             </div>
         </div>
