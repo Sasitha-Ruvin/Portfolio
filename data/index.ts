@@ -78,7 +78,7 @@ export const navItems = [
       des: "An Appointment Management System Created using Next.Js and Appwrite CMS",
       img: "/carepulse.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/app.png"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://vercel.live/link/carepulse-wheat-eight.vercel.app?",
     },
     {
       id: 2,

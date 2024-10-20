@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div className='py-20' id='experience'>
         <h1 className='heading relative z-20 mb-12 text-center'>
-            My
+            My {' '}
             <span className='text-purple'>Work Experience</span>
         </h1>
         <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>
