@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa6'
+import { FaDownload, FaLocationArrow } from 'react-icons/fa6'
 import { profile } from '@/data'
 
 
@@ -31,13 +31,22 @@ const Hero = () => {
                 <p className='text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                     React.JS Web Developer
                 </p>
-                <a href="#about">
-                    <MagicButton 
-                        title="Show My Work"
-                        icon={<FaLocationArrow/>}
-                        position='right'
-                    />
-                </a>
+                <div className='flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4 '>
+                    <a href="#about">
+                        <MagicButton 
+                            title="Show My Work"
+                            icon={<FaLocationArrow/>}
+                            position='right'
+                        />
+                    </a>
+                    <a href="/resume.pdf" download>
+                        <MagicButton
+                            title='Resume'
+                            icon={<FaDownload/>}
+                            position='right'
+                        />
+                    </a>
+                </div>
             </div>
 
             {/* Right side image with spacing and mobile adjustments */}
