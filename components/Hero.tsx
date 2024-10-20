@@ -23,13 +23,13 @@ const Hero = () => {
         </div>
         <div className='flex justify-between items-center relative z-10 my-20'>
             <div className='max-w-[90vw] md:max-w-[45vw] flex flex-col items-start justify-center'>
-                <h2 className='uppercase tracking-widest text-xs text-left text-blue-100'>Dynamic Web Magic</h2>
+                <h2 className='uppercase tracking-widest text-xs text-left text-blue-100'>Hello There</h2>
                 <TextGenerateEffect
                     className='text-left text-[30px] md:text-5xl lg:text-6xl'
-                    words='Transforming Concepts into Seamless Experiences'
+                    words='I&apos;m Sasitha Ruvin'
                 />
                 <p className='text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Greetings. I&apos;m Sasitha, React.JS Web Developer
+                    React.JS Web Developer
                 </p>
                 <a href="#about">
                     <MagicButton 
