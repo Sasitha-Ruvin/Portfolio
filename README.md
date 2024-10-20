@@ -6,7 +6,7 @@ This site showcases my skills, projects, and experiences as a React.js Web Devel
 
 ## 🙏 Special Thanks
 
-A big thank you to **Adrian** from [JS Mastery]([(https://www.jsmastery.pro/ultimate-next-course)) for his amazing tutorials. Following his guidance helped me build and refine this portfolio site, and I’ve learned so much through his lessons!
+A big thank you to **Adrian** from [JS Mastery](https://www.jsmastery.pro/) for his amazing tutorials. Following his guidance helped me build and refine this portfolio site, and I’ve learned so much through his lessons!
 
 If you're interested in web development, I highly recommend checking out JS Mastery for some incredible content.
 
