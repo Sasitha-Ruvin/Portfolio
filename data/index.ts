@@ -109,33 +109,17 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Sasitha was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sasitha's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sasitha is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Sasitha did an outstanding job creating the website for Advanced Classic White. He was incredibly easy to work with, always maintained clear and open communication, and made the entire process very calm and seamless. His expertise and dedication truly shone through in the final product. We couldn’t be happier with the result and highly recommend him for any web development needs!",
+      img:"/acwdirector.jpg",
+      name: "D.J.M.Priyangani",
+      title: "Managing Director of Nature Miracle Beauty Cosmetics (Pvt)Ltd",
     },
     {
       quote:
-        "Collaborating with Sasitha was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sasitha's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sasitha is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Sasitha was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sasitha's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sasitha is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Sasitha was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sasitha's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sasitha is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Sasitha was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Sasitha's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Sasitha is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "I had an amazing experience working with the Sasitha and the team who developed my company’s website. The entire process was smooth and seamless, and the final result was incredibly neat and polished, all within a very reasonable budget. The team was friendly, professional, and always ready to accommodate any requests I had. I’m extremely satisfied with the outcome and highly recommend their services!",
+      name: "Afzal",
+      img:"/afzal.png",
+      title: "Shoezzyy.com",
     },
   ];
   
