@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "public": true,
+    "builds": [
+      {
+        "src": "next.config.js",
+        "use": "@vercel/next"
+      },
+      {
+        "src": "public/**",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "headers": {
+          "Cache-Control": "max-age=0, s-maxage=86400"
+        }
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+  
